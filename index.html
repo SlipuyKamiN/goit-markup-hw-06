@@ -389,12 +389,38 @@
             </li>
           </ul>
         </section>
+        <div class="footer-form">
+          <h3 class="form-title">Підпишіться на розсилку</h3>
+          <input type="email" name="footer-email" id="">
+          <button type="submit" class="btn primary">Підписатися</button>
+        </div>
       </div>
+      
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="btn-modal" data-modal-close>&#10006</button>
+        <h1>Залиште свої дані, ми вам передзвонимо</h1>
+        <form class="modal-form" autocomplete="off">
+          <label for="name">Ім'я</label>
+          <input type="text" name="name" id="name">
+
+          <label for="tel">Телефон</label>
+          <input type="tel" name="tel" id="tel">
+          
+          <label for="email">Пошта</label>
+          <input type="email" name="email" id="email">
+
+          <label for="comment">Коментар</label>
+          <textarea name="comment" id="comment" placeholder="Введіть текст"></textarea>
+
+          <input type="checkbox" name="policy" id="policy">
+          <label for="policy">Погоджуюся з розсилкою та приймаю<a href="">Умови договору</a></label>
+
+          <button type="submit" class="btn primary">Відправити</button>
+
+        </form>
       </div>
     </div>
 
