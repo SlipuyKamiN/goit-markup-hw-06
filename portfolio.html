@@ -223,6 +223,7 @@
       </section>
     </main>
     <!-- Footer -->
+
     <footer class="footer">
       <div class="container">
         <div>
@@ -247,8 +248,8 @@
             </ul>
           </address>
         </div>
-        <section class="follow">
-          <h3 class="follow-list-title">Приєднуйтесь</h3>
+        <div class="follow">
+          <p class="follow-list-title">Приєднуйтесь</p>
           <ul class="follow-list">
             <li>
               <a href="" class="follow-media-link">
@@ -279,7 +280,26 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
+        <div class="subscribe">
+          <p class="form-title">Підпишіться на розсилку</p>
+          <form autocomplete="off" class="footer-form">
+            <label for="footer-email"></label>
+            <input
+              type="email"
+              name="email"
+              id="footer-email"
+              class="footer-email"
+              placeholder="Email"
+            />
+            <button type="submit" class="btn submit-footer">
+              Підписатися
+              <svg class="icon-send" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
